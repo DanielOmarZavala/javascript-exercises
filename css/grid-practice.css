@@ -1,0 +1,35 @@
+#example-wrapper {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+        "grid1 grid1"
+        "sidebar grid2"
+        "sidebar grid3"
+        "sidebar grid4"
+        "sidebar grid5"
+        "sidebar grid6";
+}
+
+#grid1-section {
+    grid-area: grid1;
+}
+
+#grid2-section {
+    grid-area: grid2;
+}
+
+#grid3-section {
+    grid-area: grid3;
+}
+
+#grid4-section {
+    grid-area: grid4;
+}
+
+#grid5-section {
+    grid-area: grid5;
+}
+
+#grid6-section {
+    grid-area: grid6;
+}
